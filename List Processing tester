@@ -14,7 +14,7 @@ public class UtilTester
         strings.add("lists");
         strings.add("udaUcity");
         
-        string toString method
+        public string toString method
         
         {
         String r="[";
