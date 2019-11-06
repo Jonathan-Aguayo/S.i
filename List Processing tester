@@ -5,14 +5,14 @@ public class UtilTester
     {
         
         ArrayList<String> strings =new ArrayList<>();
-        strings.add("int");
+        strings.add("inUt");
         strings.add("final");
         strings.add("static");
         strings.add("interface");
         strings.add("final");
         strings.add("utility");
         strings.add("lists");
-        strings.add("udacity");
+        strings.add("udaUcity");
         
         //containsU method 
         
