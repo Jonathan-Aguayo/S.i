@@ -14,7 +14,7 @@ public class UtilTester
         strings.add("lists");
         strings.add("udaUcity");
         
-        toString method
+        string toString method
         
         {
         String r="[";
@@ -23,6 +23,7 @@ public class UtilTester
         r=r+" "i;
         }
         r=r+"]};
+        return r;
         }
         
         //containsU method 
