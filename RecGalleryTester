@@ -1,0 +1,31 @@
+public class RecGalleryTester
+{
+    public static void main(String[] args)
+    {
+        RectangleGallery rectangles = new RectangleGallery();        
+        rectangles.add(new Rectangle(0,0,12,155));
+        rectangles.add(new Rectangle(0,0,110,40) );
+        rectangles.add(new Rectangle(0,0,5,5));
+
+        Rectangle narrowest = rectangles.mostNarrow();
+        System.out.println(narrowest);
+        System.out.println("Expected: Rectangle[x=0,y=0,width=5,height=5]");   
+        
+        //Spacer
+        System.out.println("-----------------------------------------------------------");
+        rectangles.add(new Rectangle(0,0,100,100));
+        rectangles.add(new Rectangle(0,0,99,100));
+        rectangles.add(new Rectangle(0,0,3,100));
+        narrowest = rectangles.mostNarrow();  
+        System.out.println(narrowest);
+        System.out.println("Expected: Rectangle[x=0,y=0,width=3,height=100]");
+         //Spacer
+        System.out.println("-----------------------------------------------------------");
+
+        rectangles = new RectangleGallery();  
+        narrowest = rectangles.mostNarrow();
+        System.out.println(narrowest);
+        System.out.println("Expected: null");
+
+    }
+}
