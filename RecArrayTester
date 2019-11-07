@@ -1,0 +1,29 @@
+public class RecArrayTester
+{
+    public static void main(String[] args)
+    {
+        Rectangle perry= new Rectangle(0,0,100,234);
+        Rectangle roger= new Rectangle(0,0,654,233);
+        Rectangle stan= new Rectangle(0,0,155,6);
+        Rectangle meg= new Rectangle(0,0,20,678);
+
+        Rectangle[] recs = {perry,roger,stan,meg};
+            
+        RectangleArray album = new RectangleArray(recs);
+        System.out.println(album.landscapeCount());
+        System.out.println("Expected: 2");
+
+        Rectangle[] recs2 = {
+                new Rectangle (0,0,546,67764),
+                new Rectangle(0,0,34,4234),
+                new Rectangle(0,0,0,0),
+                new Rectangle(0,0,234,2),
+                new Rectangle(0,0,234,7),
+                new Rectangle(0,0,76,67)
+            };
+
+        album = new RectangleArray(recs2);
+        System.out.println(album.landscapeCount());
+        System.out.println("Expected: 3");
+    }
+}
