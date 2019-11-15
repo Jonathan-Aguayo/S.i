@@ -1,0 +1,25 @@
+
+public class Cat
+{
+    //Instance vars
+    private String name;
+    private int height;
+
+    //constructor
+    public Cat (String Name,int Height)
+    {
+        this.name = Name;
+        this.height=Height;
+    }
+
+    //methods
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String newName)
+    {
+        name=newName;
+    }
+}
