@@ -1,0 +1,26 @@
+public class Hamster
+{
+    //Instance vars
+    private String name;
+    private int age;
+    private int height;
+
+    //constructor
+    public Hamster (String Name,int Height)
+    {
+        this.name = Name;
+        this.height=Height;
+    }
+
+    //methods
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String newName)
+    {
+        name=newName;
+    }
+
+}
