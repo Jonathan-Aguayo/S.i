@@ -3,10 +3,12 @@ public class Cat
 {
     //Instance vars
     private String name;
-    private int height;
-
+    private double height;
+    private final int MAXIMUM_UNDERWATER_DEPTH=2 ;
+    private final double MAXIMUM_TIME_UNDERWATER= 3.4;
     //constructor
-    public Cat (String Name,int Height)
+    
+    public Cat (String Name,double Height)
     {
         this.name = Name;
         this.height=Height;
@@ -22,4 +24,20 @@ public class Cat
     {
         name=newName;
     }
+
+    public int maxDepth()
+    {
+        return MAXIMUM_UNDERWATER_DEPTH;
+    }
+
+    public double maxTime()
+    {
+        return MAXIMUM_TIME_UNDERWATER;
+    }
+
+    public double getMeasure()
+    {
+        return height;
+    }
+
 }
