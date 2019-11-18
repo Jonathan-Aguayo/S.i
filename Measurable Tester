@@ -1,0 +1,31 @@
+
+/**
+ * Write a description of class Tester here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class MeasurableTester
+{
+    public static void main (String []args)
+    {
+        Hamster marvin=new Hamster("Marvin",1);
+        Dog junior=new Dog("Junior",36);
+        Cat peter= new Cat("Peter",9);
+        Hamster stepen=new Hamster("Stepen",1.32);
+        Dog leo=new Dog("Leo",29.4);
+        Cat gerard= new Cat("Gerard",9.3);
+        
+        //Put the animals in a list or array 
+        
+        //Use an enhanced for loop to find the shortest and tallest animal
+        
+        //print the names of the shortest and tallest animal
+        
+        
+        
+        
+        
+        
+    }
+}
