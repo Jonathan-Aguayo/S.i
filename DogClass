@@ -22,12 +22,11 @@ public class Dog
     {
         name=newName;
     }
-
-    public double getMeasure()
+    
+    public double height
     {
         return height;
     }
-
     public String toString()
     {
         return this.name + "-->" + this.height;
