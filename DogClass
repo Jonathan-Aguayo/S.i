@@ -1,12 +1,10 @@
-public class Dog 
+
+public class Dog
 {
     //Instance vars
     private String name;
     private double height;
-    //depth in meters
-    private final int MAXIMUM_UNDERWATER_DEPTH= 4;
-    
-    private final double MAXIMUM_TIME_UNDERWATER= 1.3;
+
     //constructor
     public Dog (String Name,double Height)
     {
@@ -14,7 +12,7 @@ public class Dog
         this.height=Height;
     }
 
-    //methods
+    //Methods
     public String getName()
     {
         return name;
@@ -24,19 +22,15 @@ public class Dog
     {
         name=newName;
     }
-    
-    public int maxDepth()
-    {
-        return MAXIMUM_UNDERWATER_DEPTH;
-    }
-    
-    public double maxTime()
-    {
-        return MAXIMUM_TIME_UNDERWATER;
-    }
-    
+
     public double getMeasure()
     {
         return height;
     }
+
+    public String toString()
+    {
+        return this.name + "-->" + this.height;
+    }
+
 }
