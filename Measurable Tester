@@ -1,31 +1,57 @@
-
+import java.util.Arrays;
 /**
  * Write a description of class Tester here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MeasurableTester
+public class ComparableDogTester
 {
     public static void main (String []args)
     {
-        Hamster marvin=new Hamster("Marvin",1);
+        Dog marvin=new Dog("Marvin",1);
         Dog junior=new Dog("Junior",36);
-        Cat peter= new Cat("Peter",9);
-        Hamster stepen=new Hamster("Stepen",1.32);
+        Dog peter= new Dog("Peter",36);
+        Dog stepen=new Dog("Stepen",11.32);
         Dog leo=new Dog("Leo",29.4);
-        Cat gerard= new Cat("Gerard",9.3);
-        
+        Dog gerard= new Dog("Gerard",9.3);
+        Dog gerardClone= new Dog("Gerard",25.3);
+
         //Put the animals in a list or array 
+
+        //Use Arrays.sort() or Collections.Sort() to sort the dogs first by order of height,
+        //if same height, sort by name        
         
-        //Use an enhanced for loop to find the shortest and tallest animal
-        
-        //print the names of the shortest and tallest animal
-        
-        
-        
+        //Use enhanced for loop to print output
         
         
+        // Expected output:
+        // Marvin-->1.0
+        // Gerard-->9.3
+        // Stepen-->11.32
+        // Gerard-->25.3
+        // Leo-->29.4
+        // Junior-->36.0
+        // Peter-->36.0
+
+        //Use Arrays.sort() or Collections.Sort() to sort the dogs first by alphabetical order,
+        //if same name sort by height
+        
+        
+          
+        
+        //Use enhanced for loop to print output
+        
+        
+        // Expected output:       
+        // Gerard-->9.3
+        // Gerard-->25.3
+        // Junior-->36.0
+        // Leo-->29.4
+        // Marvin-->1.0
+        // Peter-->36.0
+        // Stepen-->11.32
+
         
     }
 }
