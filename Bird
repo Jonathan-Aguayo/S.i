@@ -35,4 +35,9 @@ public class Bird
         return altitude;
     }
     
+    public void addAltitude(int n)
+    {
+        altitude=altitude+n;
+    }
+    
 }
