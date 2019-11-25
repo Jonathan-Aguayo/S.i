@@ -1,0 +1,38 @@
+
+/**
+ * Write a description of class Bird here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Bird
+{
+    private int altitude;
+    private String name;
+    Bird (String name)
+    {
+        this.name=name;
+        altitude=0;
+    }
+    
+    public void fly()
+    {
+        altitude+=10;
+    }
+    
+    public void floor()
+    {
+        altitude=0;
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+    public int getAltitude()
+    {
+        return altitude;
+    }
+    
+}
