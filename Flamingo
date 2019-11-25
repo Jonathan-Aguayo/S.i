@@ -1,0 +1,44 @@
+
+/**
+ * Write a description of class Flamingo here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Flamingo
+{
+
+    public static void main(String [] args)
+    {
+        Flamingo bert=new Flamingo("Bert");
+        bert.eat("Shrimp");
+        bert.fly();
+        bert.fly();
+        bert.fly();
+        bert.floor();
+        bert.fly();
+        System.out.print(bert);
+        //Expected "Bert -- color:Red alt:5
+        
+        Flamingo ernie=new Flamingo ("Ernie");
+        ernie.eat("leaves");
+        ernie.fly();
+        ernie.floor();
+        ernie.fly();
+        ernie.fly();
+        System.out.println(ernie);
+        //Expected "Ernie -- color: Green alt:10
+        
+        Flamingo e=new Flamingo("Elmo");
+        e.fly();
+        e.fly();
+        e.fly();
+        System.out.println(e);
+        //Expected "Elmo -- color:White alt:15
+        
+        Bird bart=ernie;
+        //Mess around and see what you can do with this bird reference
+        
+        
+    }
+}
