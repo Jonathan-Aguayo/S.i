@@ -1,0 +1,16 @@
+public class DistanceBetweenStars
+{
+  
+
+    public static double distance(int x1, int y1,int x2, int y2)
+    {
+       
+    }
+
+    public static void main(String [] args)
+    {
+        //x1=7     y1=5     x2=3000    y2=2000
+        //The numbers above should return a distance greater than the maximum allowed
+
+    }
+}
