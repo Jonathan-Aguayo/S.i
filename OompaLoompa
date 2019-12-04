@@ -1,13 +1,51 @@
-public class OompaLoompa
+/**
+ * Write a description of class OompaLoompa here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class OompaLoompa implements Comparable
 {
-   
+    private int height;
+    private String name;
+    private double shoeSize;
+    OompaLoompa(String name,int height,double ShoeSize)
+    {
+        this.height=height;
+        this.name=name;
+        this.shoeSize=ShoeSize;
+    }
+
+    public int getHeight()
+    {
+        return height;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public double getShoeSize()
+    {
+        return shoeSize;
+    }
 
     public String toString()
     {
         return "OompaLoompa: "+getName() ;
     }
 
-
+    public int compareTo(Object x)
+    {
+        OompaLoompa that=(OompaLoompa) x;
+        if(this.name.compareTo(that.name)!=0)
+            return this.name.compareTo(that.name);
+        else if(this.height-that.height!=0)
+            return this.height-that.height;
+        else
+            return (int)(this.shoeSize-that.shoeSize);
+    }
 
     public static void main(String [] args)
     {
