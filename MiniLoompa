@@ -1,0 +1,20 @@
+/**
+ * Write a description of class MiniLoompa here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class MiniLoompa extends OompaLoompa
+{
+
+
+    public static void main(String [] args)
+    {
+        MiniLoompa terry=new MiniLoompa("Terry",1,2.3);
+        MiniLoompa mark=new MiniLoompa("Mark",2,5.3);
+        System.out.println(terry);
+        //Expected: Terry 1 2.3
+        System.out.println(mark);
+        //Expected: Mark 2 5.3
+    }
+}
