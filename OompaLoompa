@@ -1,0 +1,30 @@
+public class OompaLoompa
+{
+   
+
+    public String toString()
+    {
+        return "OompaLoompa: "+getName() ;
+    }
+
+
+
+    public static void main(String [] args)
+    {
+        OompaLoompa jerry=new OompaLoompa("Jerry",1,5.5);
+        OompaLoompa george=new OompaLoompa("George",7,2.5);
+        OompaLoompa george2=new OompaLoompa("George",7,2);
+
+        //Test comparing by height first, then by name, then by shoe size
+        System.out.println(jerry.compareTo(george));
+        //shoule be -1
+        System.out.println(george.compareTo(george2));
+        //should be ___?
+
+        //Test comparing by name first, then by height, then by shoe size
+        System.out.println(jerry.compareTo(george));
+        //should be 1
+        System.out.println(george2.compareTo(george));
+        //shoule be -1
+    }
+}
