@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class RandomStaticMethod
+{
+    //Use the seed "   54321   "
+    public static void generator(int totalNumberOfIntegers,int highestPossibleIntegerValue)
+    {
+    
+    }
+
+    //With inputs of 10 total Integers and highest value of 5 Expected:
+    // 1. 0
+    // 2. 1
+    // 3. 2
+    // 4. 0
+    // 5. 4
+    // 6. 5
+    // 7. 1
+    // 8. 0
+    // 9. 1
+    // 10. 3
+}
