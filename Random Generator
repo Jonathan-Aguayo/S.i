@@ -10,7 +10,7 @@ public class RandomStaticMethod
     
     public static void main(String [] args)
     {
-        RandomStaticMethod.generator(10,5);
+     
     }
 
     //With inputs of 10 total Integers and highest value of 5 Expected:
