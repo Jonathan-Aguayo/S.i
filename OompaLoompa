@@ -1,24 +1,11 @@
-/**
- * Write a description of class OompaLoompa here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class OompaLoompa implements Comparable
 {
-    private int height;
     private String name;
-    private double shoeSize;
-    OompaLoompa(String name,int height,double ShoeSize)
+    private double weight;
+    OompaLoompa(String name,double weight)
     {
-        this.height=height;
         this.name=name;
-        this.shoeSize=ShoeSize;
-    }
-
-    public int getHeight()
-    {
-        return height;
+        this.weight=weight;
     }
 
     public String getName()
@@ -26,14 +13,24 @@ public class OompaLoompa implements Comparable
         return name;
     }
 
-    public double getShoeSize()
+    public double getWeight()
     {
-        return shoeSize;
+        return weight;
+    }
+
+    public void eat()
+    {
+        weight+=10;
+    }
+
+    public void sleep()
+    {
+        weight-=10;
     }
 
     public String toString()
     {
-        return "OompaLoompa: "+getName() ;
+        return "Name: "+getName() + "weight: "+ getWeight();
     }
 
     public int compareTo(Object x)
@@ -41,28 +38,20 @@ public class OompaLoompa implements Comparable
         OompaLoompa that=(OompaLoompa) x;
         if(this.name.compareTo(that.name)!=0)
             return this.name.compareTo(that.name);
-        else if(this.height-that.height!=0)
-            return this.height-that.height;
-        else
-            return (int)(this.shoeSize-that.shoeSize);
+        return (int)(this.weight-that.weight);
     }
 
     public static void main(String [] args)
     {
-        OompaLoompa jerry=new OompaLoompa("Jerry",1,5.5);
-        OompaLoompa george=new OompaLoompa("George",7,2.5);
-        OompaLoompa george2=new OompaLoompa("George",7,2);
+        OompaLoompa jerry=new OompaLoompa("Jerry",100);
+        OompaLoompa george=new OompaLoompa("George",110);
+        OompaLoompa george2=new OompaLoompa("George",105);
 
-        //Test comparing by height first, then by name, then by shoe size
+        //Test comparing alphabetically first,then by weight
         System.out.println(jerry.compareTo(george));
-        //shoule be -1
+        //shoule be 3
         System.out.println(george.compareTo(george2));
-        //should be ___?
+        //should be 5
 
-        //Test comparing by name first, then by height, then by shoe size
-        System.out.println(jerry.compareTo(george));
-        //should be 1
-        System.out.println(george2.compareTo(george));
-        //shoule be -1
     }
 }
