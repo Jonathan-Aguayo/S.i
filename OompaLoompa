@@ -18,14 +18,14 @@ public class OompaLoompa
         return weight;
     }
 
-    public void eat()
+    public void eat(int food)
     {
-        weight+=10;
+        weight=weight+food;
     }
 
-    public void sleep()
+    public void sleep(int hours)
     {
-        weight-=10;
+        weight=weight-hours;;
     }
 
     public String toString()
