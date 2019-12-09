@@ -1,4 +1,4 @@
-public class OompaLoompa implements Comparable
+public class OompaLoompa 
 {
     private String name;
     private double weight;
@@ -35,10 +35,7 @@ public class OompaLoompa implements Comparable
 
     public int compareTo(Object x)
     {
-        OompaLoompa that=(OompaLoompa) x;
-        if(this.name.compareTo(that.name)!=0)
-            return this.name.compareTo(that.name);
-        return (int)(this.weight-that.weight);
+    
     }
 
     public static void main(String [] args)
