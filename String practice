@@ -1,0 +1,11 @@
+ public static void main(String [] args)
+    {
+        String jonathan="Jonathan";
+        double jonathanData=20.1234567890;
+        String kyra="Kyra";
+        double kyraData=21.987654321;
+        String jaiden="Jaiden";
+        double jaidenData=18.123456789;
+
+
+    }
