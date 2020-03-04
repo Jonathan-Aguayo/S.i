@@ -1,0 +1,21 @@
+Public class PlayerTester
+{
+  public static void main(String [] args)
+  {
+  
+  Player jonathan=("Jonathan",16,50);
+  Player carl=("Carl",25,3);
+  
+  System.out.println(jonathan.getName()+": "+jonathan.toLeet());
+  System.out.println(carl.getName()": "+carl.toLeet());
+  
+  System.out.println("Are the two names the same?"+": "+    )
+  
+  System.out.println("Jonathan winMathTester: "+ jonathan.winMath());
+  System.out.println("Expected: 260");
+  
+  System.out.println("Carl winMathTester: "+ carl.winMath());
+  System.out.println("Expected: 630");
+  }
+  
+}
