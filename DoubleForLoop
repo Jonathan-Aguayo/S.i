@@ -1,0 +1,34 @@
+import java.util.Scanner;
+/**
+ * Write a description of class DoubleForLoop here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class DoubleForLoop
+{
+    public static void main(String [] args)
+    {
+        /*
+         * You will prompt the user to enter the number of words they will enter. 
+         * 
+         * You will then run the outer loop that many times.
+         * In the inner loop you will check every index of the users input and check if it is the letter A
+         * If it is, print "A, hooray!"
+         * Should be case insensitive
+         */
+        Scanner scan =new Scanner(System.in);
+
+        int timesToRunOuterLoop=
+
+        //Outer loop will run as many times as the user specifies
+        for()
+        {
+            //Inner loop will traverse each index of the users input and check if it contains the letter 
+            for()
+            {
+            }
+        }
+
+    }
+}
