@@ -17,7 +17,6 @@ public class WhileLoop
         given number of lap
          */
 
-        //hint you will need a variable to count how many laps you already ran 
         while()
         {
         }
