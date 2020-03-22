@@ -10,14 +10,17 @@ public class DoWhile
     public static void main(String [] args)
     {
         Scanner scan= new Scanner (System.in);
+        //Prompt user to input numberic values above 0
+        //Find the max value of the user input
+        //Create any variables you think you need *hint: you only need 2
+        
          /*
          * Write you do loop here 
          * 
          * 
          *  
          */
-        
-        //Print the value of max
+       
         
         //Print the value of max
         System.out.println();
