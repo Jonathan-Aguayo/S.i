@@ -1,0 +1,24 @@
+import java.util.*;
+/**
+ * Write a description of class DoWhile here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class DoWhile
+{
+    public static void main(String [] args)
+    {
+        Scanner scan= new Scanner (System.in);
+
+        do
+        {
+            //Prompt user to input any numeric value that is at least 0
+        }
+        //check if the number is at least 0
+        while();
+        //Print the value of max
+        System.out.println();
+
+    }
+}
