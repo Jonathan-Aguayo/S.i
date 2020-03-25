@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class MinNMax
+{
+    public static void main(String [] args)
+    {
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Enter a double, press q to quit: ");
+        
+        //If user input is not a double exit the program
+        
+        //If it is a double, use a loop to continue to prompt until user provides invalid input
+        
+        
+        
+        
+        
+        //Print the min and max
+        System.out.println("Max: "     " Min: "   );
+}
