@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public static void main(String [] args)
+{
+//Import graphics package and use that square class 
+
+
+  Random gen = new Random (200);
+
+
+//Use this generator to draw 20 random squares with X values between 10 and 50 and Y values between 10 and 50 
+//Each square should be width 10 and height 10 
+for()
+{
+System.out.println();// Try to print square value to make sure they are in range 
+}
+
+
+
+}
