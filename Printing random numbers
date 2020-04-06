@@ -2,7 +2,7 @@ import java.util.Random;
 
 public static void main(String [] args)
 {
-//Import graphics package and use that square class 
+//Import graphics package and use that rectangle class 
 
 
   Random gen = new Random (200);
