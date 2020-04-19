@@ -1,0 +1,14 @@
+public static void main(String [] args)
+{
+  TreeDrawer td = new TreeDrawer(100,200);
+  
+  TreeDrawer td1 = new TreeDrawer(55,30);
+  
+  TreeDrawer td2 = new TreeDrawer(350,500);
+  
+  td1.draw();
+  
+  td2.draw();
+  
+  td.draw();
+}
