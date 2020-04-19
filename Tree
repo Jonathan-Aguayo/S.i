@@ -1,0 +1,19 @@
+public class Tree
+{
+    public static void main(String [] args)
+    {
+        Rectangle base=new Rectangle(20,30,20,70);
+        base.setColor(Color.BLACK);
+        base.fill();
+        Ellipse leaves1=new Ellipse(10,0,40,40);
+        leaves1.setColor(Color.GREEN);
+        leaves1.fill();
+        Ellipse leaves2=new Ellipse(0,10,40,40);
+        leaves2.setColor(Color.GREEN);
+        leaves2.fill();
+        Ellipse leaves3=new Ellipse(20,10,40,40);
+        leaves3.setColor(Color.GREEN);
+        leaves3.fill();
+    }
+
+}
