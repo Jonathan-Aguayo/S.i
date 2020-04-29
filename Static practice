@@ -1,1 +1,21 @@
+/**
+ * Write a description of class StaticTester here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class StaticTester
+{
+    public static void main(String [] args)
+    {
+        String [] secretPassword = {"P0tatoe", "L1ma beans", "Pickl3", "Gr4vy"};
+
+        String password = Utility.codeCracker(secretPassword);
+
+        System.out.println(password);
+
+        System.out.println("Expected: " + "0" + "1" + "3" + "4");
+
+    }
+}
 
