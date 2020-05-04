@@ -4,6 +4,8 @@ public class Hamster
     private String name;
     private int age;
     private int height;
+    //Implement the getMaxDepth method to be based on height. The maximum depth will = height
+    //Implement the getMaxTime method to be based on the number of letters in the name. Max time is equal to numebr of letters in the name
 
     //constructor
     public Hamster (String Name,int Height)
