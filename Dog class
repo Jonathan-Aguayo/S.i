@@ -3,6 +3,8 @@ public class Dog
     //Instance vars
     private String name;
     private double height;
+    //Implement the getMaxDepth method to be based on height. The maximum depth will = height
+    //Implement the getMaxTime method to be based on the number of letters in the name. Max time is equal to numebr of letters in the name
 
     //constructor
     public Dog (String Name,double Height)
