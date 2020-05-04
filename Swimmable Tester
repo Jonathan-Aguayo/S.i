@@ -20,13 +20,13 @@ public class SwimmableTester
 
 
         //Loop through the existing list/array and put all the animals that can hold
-        //their breath for at least 2 minutes in a seperate list
+        //their breath for at least 2 in a seperate list
 
 
 
 
         //Loop through the existing list/array and put all the animals that can reach a depth
-        //of at least 3 meters in a seperate list 
+        //of at least 3 in a seperate list 
 
 
 
