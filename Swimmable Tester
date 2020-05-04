@@ -8,11 +8,11 @@ public class SwimmableTester
 {
     public static void main(String [] args)
     {
-        Hamster marvin=new Hamster("Marvin",1);
-        Dog junior=new Dog("Junior",36);
-        Cat peter= new Cat("Peter",9);
+        Hamster marvin=new Hamster("RonaldMcdonald",1);
+        Dog junior=new Dog("Penelope",36);
+        Cat peter= new Cat("Mac",9);
         Hamster stepen=new Hamster("Stepen",1.32);
-        Dog leo=new Dog("Leo",29.4);
+        Dog leo=new Dog("Jonathan",29.4);
         Cat gerard= new Cat("Gerard",9.3);
 
 
@@ -26,7 +26,7 @@ public class SwimmableTester
 
 
         //Loop through the existing list/array and put all the animals that can reach a depth
-        //of at least 3 in a seperate list 
+        //of at least 8 in a seperate list 
 
 
 
