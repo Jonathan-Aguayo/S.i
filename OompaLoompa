@@ -33,11 +33,6 @@ public class OompaLoompa
         return "Name: "+getName() + "weight: "+ getWeight();
     }
 
-    public int compareTo(Object x)
-    {
-    
-    }
-
     public static void main(String [] args)
     {
         OompaLoompa jerry=new OompaLoompa("Jerry",100);
